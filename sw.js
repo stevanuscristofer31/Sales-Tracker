@@ -5,9 +5,9 @@
  *
  *  Setiap kali Anda mengunggah versi baru aplikasi, naikkan angka VERSI.
  * ========================================================================== */
-const VERSI = 'dst-v1';
+const VERSI = 'dst-v2';
 const BERKAS = ['./', 'index.html', 'styles.css', 'app.js', 'config.js', 'manifest.webmanifest',
-  'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
+  'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
   e.waitUntil(caches.open(VERSI).then((c) => c.addAll(BERKAS)).then(() => self.skipWaiting()));

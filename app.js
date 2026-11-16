@@ -206,7 +206,7 @@
    * 3. LAYAR HUBUNGKAN & LAYAR MASUK
    * ======================================================================== */
   function merek() {
-    return '<div class="merek"><img src="icons/icon-192.png" alt=""><div><b>DAP Sales Tracker</b><span>Dekoruma O2O</span></div></div>';
+    return '<div class="merek"><img src="icon-192.png" alt=""><div><b>DAP Sales Tracker</b><span>Dekoruma O2O</span></div></div>';
   }
 
   function layarHubung(pesan) {
